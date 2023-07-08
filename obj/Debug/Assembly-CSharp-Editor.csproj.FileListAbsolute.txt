@@ -1,0 +1,4 @@
+F:\my\Unity\Kuapingtai_URP\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+D:\my\Unity\Kuapingtai_URP\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
+D:\my\Unity\Kuapingtai_URP\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+F:\my\Unity\Kuapingtai_URP\obj\Debug\Assembly-CSharp-Editor.csproj.AssemblyReference.cache
