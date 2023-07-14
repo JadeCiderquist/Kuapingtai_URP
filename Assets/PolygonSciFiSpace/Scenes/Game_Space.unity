@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.00623866, g: 0.004443014, b: 0.032534007, a: 1}
+  m_IndirectSpecularColor: {r: 0.05752591, g: 0.04434745, b: 0.16866896, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18910,7 +18910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 122.1, y: 67.5}
+  m_AnchoredPosition: {x: 122.1001, y: 67.5}
   m_SizeDelta: {x: 183.3, y: 66.76001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &916365083
@@ -38685,7 +38685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -62.4, y: -49.3}
+  m_AnchoredPosition: {x: -62.399902, y: -49.299988}
   m_SizeDelta: {x: 40, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1976122902
@@ -42787,7 +42787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3332994951441213162, guid: 917394d32de274340936d8d3c3b65809, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.121
+      value: -1.09
       objectReference: {fileID: 0}
     - target: {fileID: 3332994951441213162, guid: 917394d32de274340936d8d3c3b65809, type: 3}
       propertyPath: m_LocalPosition.z
@@ -42820,6 +42820,14 @@ PrefabInstance:
     - target: {fileID: 3332994951441213162, guid: 917394d32de274340936d8d3c3b65809, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337250693876750513, guid: 917394d32de274340936d8d3c3b65809, type: 3}
+      propertyPath: Speed
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337250693876750513, guid: 917394d32de274340936d8d3c3b65809, type: 3}
+      propertyPath: PingpangTime
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 3339067520932874612, guid: 917394d32de274340936d8d3c3b65809, type: 3}
       propertyPath: m_Name
@@ -42926,6 +42934,10 @@ PrefabInstance:
       propertyPath: Wall
       value: 
       objectReference: {fileID: 2100000, guid: 4cee7a5983b187943adc589b9cb1f084, type: 2}
+    - target: {fileID: 4101635473292879213, guid: 35ba8d2304b6db849aee2da274f54287, type: 3}
+      propertyPath: road
+      value: 
+      objectReference: {fileID: 1231564614299310065, guid: 1ba589a2e7c61034fa55837856cef0c7, type: 3}
     - target: {fileID: 4101635473292879213, guid: 35ba8d2304b6db849aee2da274f54287, type: 3}
       propertyPath: Block
       value: 

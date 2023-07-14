@@ -15,7 +15,7 @@ public class Select_Color : MonoBehaviour
     {
         ColorCount = PlayerPrefs.GetInt("colorCount");
         meshFilter.mesh = mesh[ColorCount];
-        meshCollider.sharedMesh = mesh[ColorCount];
+       // meshCollider.sharedMesh = mesh[ColorCount];
         meshRender.material = material[ColorCount];
     }
 

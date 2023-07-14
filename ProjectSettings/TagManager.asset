@@ -9,9 +9,9 @@ TagManager:
   - Point_Red
   - Point_Blod
   - Death
-  - accelerate_Road
   - BaiChui
   - Accelerate
+  - Light
   layers:
   - Default
   - TransparentFX

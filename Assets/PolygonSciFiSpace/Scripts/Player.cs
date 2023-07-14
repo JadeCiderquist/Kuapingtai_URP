@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     public int jumpcount = 0;
     public AudioSource HitSoundPlay;
     public AudioSource BackgroundSound;
+
     Vector3 Loction_P;
     Vector3 Rotation_P;
     
@@ -94,6 +95,13 @@ public class Player : MonoBehaviour
             ifBlue = false;
             ifRed = true;
             ifBlod = false;
+            //灯光
+            GameObject[] targets = GameObject.FindGameObjectsWithTag("Light");//返回tag相同的所有物体
+            foreach (GameObject target in targets)
+            {
+                target.GetComponent<Light>().color = Color.red;
+            }
+            Handheld.Vibrate();//手机震动
             HitSoundPlay.Play();
         }
         if (collision.gameObject.tag == "Point_Blod")
@@ -102,6 +110,13 @@ public class Player : MonoBehaviour
             ifBlue = false;
             ifBlod = true;
             ifRed = false;
+            //灯光
+            GameObject[] targets = GameObject.FindGameObjectsWithTag("Light");//返回tag相同的所有物体
+            foreach (GameObject target in targets)
+            {
+                target.GetComponent<Light>().color = new Vector4(1, 1, 0, 1);
+            }
+            Handheld.Vibrate();//手机震动
             HitSoundPlay.Play();
         }
         if (collision.gameObject.tag == "Point")
@@ -110,6 +125,13 @@ public class Player : MonoBehaviour
             ifBlue = true;
             ifRed = false;
             ifBlod = false;
+            //灯光
+            GameObject[] targets = GameObject.FindGameObjectsWithTag("Light");//返回tag相同的所有物体
+            foreach (GameObject target in targets)
+            {
+                target.GetComponent<Light>().color = new Vector4(0, 1, 0.9f, 1);
+            }
+            Handheld.Vibrate();//手机震动
             HitSoundPlay.Play();
         }
         if (ifBlue && !ifRed && changeBlue)

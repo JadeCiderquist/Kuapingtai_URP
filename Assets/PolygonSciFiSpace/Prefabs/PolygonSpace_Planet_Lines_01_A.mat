@@ -172,14 +172,14 @@ Material:
     - Color_05f6585b46c14cfabb35df8d991fbbfc: {r: 0, g: 1.3779986, b: 4.594794, a: 1}
     - Color_1cc6196c8de54c65bfc1387afa087488: {r: 1, g: 1, b: 1, a: 1}
     - Color_3845246bf95342e3ae495a4c71dd8fe7: {r: 0.17746994, g: 0, b: 33.89676, a: 1}
-    - Color_7C11588D: {r: 0, g: 1, b: 0.049153566, a: 0}
+    - Color_7C11588D: {r: 0.011163253, g: 0.2830189, b: 0, a: 0}
     - _ASEOutlineColor: {r: 0.5181034, g: 0.4426903, b: 0.6764706, a: 0}
     - _BaseColor: {r: 0.30882353, g: 0.3005548, b: 0.25432524, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.7931032, b: 1, a: 0}
     - _Color1: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0, g: 1, b: 0.10866976, a: 1}
+    - _RimColor: {r: 0, g: 1, b: 0.109803915, a: 1}
     - _Second_Color: {r: 0.31617647, g: 0.25890556, b: 0.22783305, a: 0}
     - _Size: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
