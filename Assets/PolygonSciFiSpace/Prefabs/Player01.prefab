@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4101635473292879209}
   - component: {fileID: 4101635473292879208}
   - component: {fileID: 4101635473292879215}
+  - component: {fileID: 3437599984828718020}
   - component: {fileID: 4101635473292879214}
   - component: {fileID: 4101635473292879213}
   m_Layer: 0
@@ -98,6 +99,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 49ac5e8680ee70f4ba05722caa1d7caa, type: 3}
+--- !u!114 &3437599984828718020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101635473292879212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c10a13c09c472468f308495576a964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorCount: 0
+  meshFilter: {fileID: 4101635473292879209}
+  meshRender: {fileID: 4101635473292879208}
+  meshCollider: {fileID: 4101635473292879215}
+  mesh:
+  - {fileID: 4300000, guid: 49ac5e8680ee70f4ba05722caa1d7caa, type: 3}
+  - {fileID: 4300000, guid: 90440b58da4739f4fb46ddb783a16943, type: 3}
+  - {fileID: 4300000, guid: ed33027662c7a3747a37e8411e001396, type: 3}
+  - {fileID: 4300000, guid: 1f199f530494e49418a278da4e6f40ae, type: 3}
+  material:
+  - {fileID: 2100000, guid: c2fe3d63aeeabfa4aad9c28d71b21677, type: 2}
+  - {fileID: 2100000, guid: c79143b0d6739c9448e7836ffbf796ba, type: 2}
+  - {fileID: 2100000, guid: 59ddaf0b08137c746bf06ef7ee5f184a, type: 2}
+  - {fileID: 2100000, guid: 25cae7cd49ecd234d97d823685fb8aa0, type: 2}
 --- !u!54 &4101635473292879214
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -144,5 +171,4 @@ MonoBehaviour:
   jumpcount: 0
   HitSoundPlay: {fileID: 0}
   BackgroundSound: {fileID: 0}
-  Block_particle: {fileID: 0}
   isGrounded: 1

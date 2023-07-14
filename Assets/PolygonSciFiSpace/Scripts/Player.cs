@@ -53,6 +53,15 @@ public class Player : MonoBehaviour
             jumpcount++;
             rb.AddForce(0, 230, 0);
         }
+        //死亡
+
+        if (this.transform.position.y <= 0)
+        {
+            this.isFail = true;
+            Loction_P = this.transform.position;
+            Rotation_P = this.transform.eulerAngles;
+            PauseBackgroundSound();
+        }
     }
     void FixedUpdate()
     {
@@ -62,7 +71,16 @@ public class Player : MonoBehaviour
     
     private void OnCollisionEnter(Collision collision)
     {
-        
+        //触碰倾斜加速
+        if (collision.gameObject.tag == "Accelerate")
+        {
+            rb.AddForce(0, 500, 200);
+        }
+        //大摆锤
+        if (collision.gameObject.tag == "BaiChui")
+        {
+            rb.AddForce(-50, 0, 20);
+        }
         //与地板发生碰撞则启用移动与跳跃
         if (collision.gameObject.tag == "Road")
         {
@@ -129,13 +147,6 @@ public class Player : MonoBehaviour
            this.Door01.GetComponent<Door_open>().ifin = true;
            UI_Shining = true;
         }
-        if (other.gameObject.tag == "Death")
-        {
-            this.isFail = true;
-            Loction_P = this.transform.position;
-            Rotation_P = this.transform.eulerAngles;
-            PauseBackgroundSound();
-        }
     }
 
     public void Contorl()
@@ -173,8 +184,8 @@ public class Player : MonoBehaviour
     {
         if (ifRed)
         {
-            Wall.color = Color.Lerp(Wall.color, Color.red, Time.deltaTime * 10);
-            Wall.SetColor("_EmissionColor", new Color(11.0f, 0.1f, 0.0f, 1.0f));
+            //Wall.color = Color.Lerp(Wall.color, Color.red, Time.deltaTime * 10);
+            Wall.SetColor("_EmissionColor", new Color(10.0f, 0.0f, 0.0f, 1.0f));
         }
         else if (ifBlod)
         {
@@ -182,7 +193,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Wall.color = Color.Lerp(Wall.color, Color.white, Time.deltaTime * 10);
+            //Wall.color = Color.Lerp(Wall.color, Color.white, Time.deltaTime * 10);
             Wall.SetColor("_EmissionColor", new Color(0.0f, 8.0f, 8.0f, 1.0f));
         }
     }

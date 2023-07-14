@@ -69,6 +69,7 @@
     <Compile Include="Assets\PolygonSciFiSpace\Scripts\UI_Start.cs" />
     <Compile Include="Assets\PolygonSciFiSpace\Scripts\Play_Sound.cs" />
     <Compile Include="Assets\PolygonSciFiSpace\Scripts\Follow.cs" />
+    <Compile Include="Assets\Select_Color.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PolygonSciFiSpace\Shaders\SyntyStudios_Asteroid.shader" />

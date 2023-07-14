@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Player
+  m_Name: PolygonSpace_Planet_Lines_03_A
   m_Shader: {fileID: -6465566751694194690, guid: 680b960aa9ce5414ab7cb402e07c798e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

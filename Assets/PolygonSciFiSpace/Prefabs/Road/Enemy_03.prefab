@@ -248,6 +248,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Mine_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1574806725768970, guid: b1d9322be573b484b8d301c58ab78af9, type: 3}
+      propertyPath: m_TagString
+      value: BaiChui
+      objectReference: {fileID: 0}
     - target: {fileID: 4061064458669742, guid: b1d9322be573b484b8d301c58ab78af9, type: 3}
       propertyPath: m_RootOrder
       value: 0

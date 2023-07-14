@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 64965749172161444}
   m_Layer: 0
   m_Name: SM_Prop_Stairs_02
-  m_TagString: Untagged
+  m_TagString: accelerate_Road
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

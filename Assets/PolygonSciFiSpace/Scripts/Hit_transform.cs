@@ -5,14 +5,15 @@ using UnityEngine;
 public class Hit_transform : MonoBehaviour
 
 {
-    public float Speed01 = 1.0f;
-    public float Speed02 = 1.0f;
+    public float Speed = 1.0f;
     public bool ifLeft = true;
+    Vector3 StartPos;
     float TimeSpeed = 0.0f;
     float LR = 1.0f;
     // Start is called before the first frame update
     void Start()
     {
+        StartPos = this.transform.localPosition;
         if (!ifLeft)
         {
             LR = -1.0f;
@@ -23,20 +24,16 @@ public class Hit_transform : MonoBehaviour
     void Update()
     {
 
-        float LocationL = Time.deltaTime * Speed01;
-        float LocationR = Time.deltaTime * Speed02;
+        float LocationL = Time.deltaTime * Speed;
         TimeSpeed += Time.deltaTime;
         //◊Û”“¿¥ªÿ“∆∂Ø
-        if (TimeSpeed <= 0.5f )
+        if (TimeSpeed <= 1 )
         {
             transform.Translate(Vector3.right * LocationL * LR);
         }
-        else if (TimeSpeed > 0.5f && TimeSpeed < 2.5f )
+        else if (TimeSpeed > 1)
         {
-            transform.Translate(Vector3.right * -LocationR * LR);
-        }
-        else
-        {
+            this.transform.localPosition = StartPos;
             TimeSpeed = 0;
         }
     }

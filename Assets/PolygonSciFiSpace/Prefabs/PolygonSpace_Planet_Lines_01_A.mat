@@ -7,11 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PolygonSpace_Planet_Lines_03_F
-  m_Shader: {fileID: -6465566751694194690, guid: 27ef9ca2ab5d3dd41b2a27523eaac981,
-    type: 3}
+  m_Name: PolygonSpace_Planet_Lines_01_A
+  m_Shader: {fileID: -6465566751694194690, guid: 27ef9ca2ab5d3dd41b2a27523eaac981, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 0
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,8 +19,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_057a32afa3264509a4b1e212f09c593f:
+        m_Texture: {fileID: 2800000, guid: bff9cec39e8865949bf27094ccecd125, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_C4C4D0DA:
-        m_Texture: {fileID: 2800000, guid: 9f4c354f50768f74f95596a3cebb902f, type: 3}
+        m_Texture: {fileID: 2800000, guid: a22633082f90f1348a01ddcd1c9bc8c5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BotTexture0:
@@ -84,6 +87,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 67c01b19dd0b2354f932b32748d8491d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f237dba80e484baba5bba6cf1690f898_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture:
         m_Texture: {fileID: 2800000, guid: 615d853995cf2344d8641fd19cb09b5d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -104,9 +111,26 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_42ED4346: 0
-    - Vector1_CBF347CE: 3
+    - Vector1_0f78e86a677a4055bb07b526aa56dbe8: 0
+    - Vector1_394fd587b6a745d7b2c0abd457c7538f: 0
+    - Vector1_42ED4346: 0.309
+    - Vector1_CBF347CE: 0.3
+    - Vector1_ccaf4b367346498aa7833a7a5cdafebd: 0
+    - Vector1_cda83a335b8049a4904ee02161b17d34: 4.54
+    - Vector1_d9bd9bccd8284b5385d3da2327e5343b: 1
     - _ASEOutlineWidth: 0.01
     - _BumpScale: 1
     - _Cloud_Contrast: 1.2
@@ -130,10 +154,10 @@ Material:
     - _Normal_Tiling: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _PlanetSurfaceContrast: -3.6
+    - _PlanetSurfaceContrast: -2.92
     - _PlanetSurfaceFloat: 2
-    - _PlanetSurfaceTiling: 5
-    - _RimPower: 2.95
+    - _PlanetSurfaceTiling: 1
+    - _RimPower: 2.05
     - _Scale: -0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -142,16 +166,20 @@ Material:
     - _Tiling: 0.97
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 0
+    - __dirty: 1
     - _frez: 16.33
     m_Colors:
-    - Color_7C11588D: {r: 0.59367, g: 0.29561228, b: 0.6886792, a: 0}
+    - Color_05f6585b46c14cfabb35df8d991fbbfc: {r: 0, g: 1.3779986, b: 4.594794, a: 1}
+    - Color_1cc6196c8de54c65bfc1387afa087488: {r: 1, g: 1, b: 1, a: 1}
+    - Color_3845246bf95342e3ae495a4c71dd8fe7: {r: 0.17746994, g: 0, b: 33.89676, a: 1}
+    - Color_7C11588D: {r: 0, g: 1, b: 0.049153566, a: 0}
     - _ASEOutlineColor: {r: 0.5181034, g: 0.4426903, b: 0.6764706, a: 0}
     - _BaseColor: {r: 0.30882353, g: 0.3005548, b: 0.25432524, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.7931032, b: 1, a: 0}
     - _Color1: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 0.18396229, b: 0.9193271, a: 1}
-    - _Second_Color: {r: 0.22783305, g: 0.2978985, b: 0.31617647, a: 0}
+    - _RimColor: {r: 0, g: 1, b: 0.10866976, a: 1}
+    - _Second_Color: {r: 0.31617647, g: 0.25890556, b: 0.22783305, a: 0}
     - _Size: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

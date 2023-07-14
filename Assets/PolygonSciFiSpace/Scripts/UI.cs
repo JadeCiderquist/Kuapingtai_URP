@@ -9,6 +9,7 @@ public class UI : MonoBehaviour
     public Text num_dis;
     public Text num_score;
     public Text num_Pingjia;
+    public Text num_TopPingjia;
     public GameObject player;
     public Button Pause_Button;
     public Image Left;
@@ -31,7 +32,12 @@ public class UI : MonoBehaviour
         pingjia = int.Parse(player.transform.position.z.ToString("0")) + player.GetComponent<Player>().Score * 20;//总评成绩
         num_Pingjia.text = pingjia.ToString("0");
 
-
+        //最高分储存
+        if(pingjia > PlayerPrefs.GetInt("Top_Score"))
+        {
+            PlayerPrefs.SetInt("Top_Score", pingjia);
+        }
+        num_TopPingjia.text = PlayerPrefs.GetInt("Top_Score").ToString("0");
 
         if (player.GetComponent<Player>().isFail)
         {
