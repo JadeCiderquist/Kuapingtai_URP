@@ -157,6 +157,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64965749172161444, guid: da30c7fab7ccb3e42b4222d0929109da, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -2447663833701438053, guid: b5aeb6372ff629f4a89e1dfcc6efd69d, type: 3}
+    - target: {fileID: 64965749172161444, guid: da30c7fab7ccb3e42b4222d0929109da, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64965749172161444, guid: da30c7fab7ccb3e42b4222d0929109da, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 64965749172161444, guid: da30c7fab7ccb3e42b4222d0929109da, type: 3}
+      propertyPath: m_CookingOptions
+      value: -1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da30c7fab7ccb3e42b4222d0929109da, type: 3}
 --- !u!4 &4626539402063101660 stripped

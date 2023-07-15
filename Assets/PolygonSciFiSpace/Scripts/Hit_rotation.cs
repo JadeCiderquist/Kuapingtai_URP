@@ -18,20 +18,8 @@ public class Hit_rotation : MonoBehaviour
     void Update()
     {
         TimeSpeed += Time.deltaTime;
-        print(TimeSpeed);
-        if(TimeSpeed <= 1.0f)
-        {
-            transform.Rotate(X, Y, Z * Time.deltaTime);
-        }
-        else if(TimeSpeed < 2.0f && TimeSpeed > 1.0f)
-        {
-            transform.Rotate(X, Y, Z * -Time.deltaTime);
-        }
-        else
-        {
-            TimeSpeed = 0;
-        }
-        
+        transform.Rotate(X, Y, Z * Time.deltaTime);
+   
     }
     void FixedUpdate()
     {

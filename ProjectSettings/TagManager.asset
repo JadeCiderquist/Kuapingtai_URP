@@ -12,6 +12,8 @@ TagManager:
   - BaiChui
   - Accelerate
   - Light
+  - Left_Box
+  - Right_Box
   layers:
   - Default
   - TransparentFX

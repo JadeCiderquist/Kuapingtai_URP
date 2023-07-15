@@ -75,12 +75,21 @@ public class Player : MonoBehaviour
         //触碰倾斜加速
         if (collision.gameObject.tag == "Accelerate")
         {
-            rb.AddForce(0, 500, 200);
+            rb.AddForce(0, 400, 400);
         }
         //大摆锤
         if (collision.gameObject.tag == "BaiChui")
         {
-            rb.AddForce(-50, 0, 20);
+            rb.AddForce(-400, 500, 0);
+        }
+
+        if (collision.gameObject.tag == "Left_Box")
+        {
+            rb.AddForce(400, 300, 0);
+        }
+        if (collision.gameObject.tag == "Right_Box")
+        {
+            rb.AddForce(-400, 300, 0);
         }
         //与地板发生碰撞则启用移动与跳跃
         if (collision.gameObject.tag == "Road")

@@ -658,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4012655929079808, guid: 35ab5042a61b422478913511a2f89312, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4012655929079808, guid: 35ab5042a61b422478913511a2f89312, type: 3}
       propertyPath: m_LocalScale.x
@@ -5164,7 +5164,7 @@ Transform:
   - {fileID: 1983153440}
   - {fileID: 739742986}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &224770819
 PrefabInstance:
@@ -6000,7 +6000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -16.5}
+  m_AnchoredPosition: {x: 74.81, y: 8.8}
   m_SizeDelta: {x: 512, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &269463853
@@ -10048,7 +10048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1.6}
+  m_AnchoredPosition: {x: 0, y: 11.6}
   m_SizeDelta: {x: 656.18, y: 129.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447574315
@@ -11611,7 +11611,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -106}
+  m_AnchoredPosition: {x: 0, y: -94.22}
   m_SizeDelta: {x: 512, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &535551620
@@ -38069,7 +38069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 81.1}
+  m_AnchoredPosition: {x: -90.98, y: 72.6}
   m_SizeDelta: {x: 656.18, y: 129.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1944791024
@@ -42866,6 +42866,10 @@ PrefabInstance:
       propertyPath: mesh.Array.data[0]
       value: 
       objectReference: {fileID: 4300000, guid: 49ac5e8680ee70f4ba05722caa1d7caa, type: 3}
+    - target: {fileID: 3437599984828718020, guid: 35ba8d2304b6db849aee2da274f54287, type: 3}
+      propertyPath: mesh.Array.data[2]
+      value: 
+      objectReference: {fileID: 4300000, guid: bec5317061f75c540816821c2ead1926, type: 3}
     - target: {fileID: 3437599984828718020, guid: 35ba8d2304b6db849aee2da274f54287, type: 3}
       propertyPath: material.Array.size
       value: 4
